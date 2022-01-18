@@ -25,8 +25,19 @@ let lastName  = ["Mulia", "James", "Davis"];
 let firstName = ["Seth", "Lebron", "Anthony"];
 let age = [21, 37, 28];
 
-let student = [lastName[1], firstName[1], age[1]];
+let student = [firstName[1], lastName[1], age[1]];
 
-console.log('Hello, my name is'[student]);
+console.log(`Hello, my name is ${lastName[1]}`);
+
+
+var moviePatrons = [
+  { name: "Tom", age: 16 },
+  { name: "Ashley", age: 31 },
+  { name: "Sarah", age: 18 },
+  { name: "Alvin", age: 22 },
+  { name: "Cherie", age: 14 },
+  { name: "Malcolm", age: 15 }
+];
+
 
 /////EASY////
