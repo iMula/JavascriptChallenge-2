@@ -25,19 +25,23 @@ let lastName  = ["Mulia", "James", "Davis"];
 let firstName = ["Seth", "Lebron", "Anthony"];
 let age = [21, 37, 28];
 
-let student = [firstName[1], lastName[1], age[1]];
 
-console.log(`Hello, my name is ${lastName[1]}`);
-
-
-var moviePatrons = [
-  { name: "Tom", age: 16 },
-  { name: "Ashley", age: 31 },
-  { name: "Sarah", age: 18 },
-  { name: "Alvin", age: 22 },
-  { name: "Cherie", age: 14 },
-  { name: "Malcolm", age: 15 }
-];
+console.log(`Hello, my name is ${firstName[1]} ${lastName[1]} and I'm ${age[1]} years old.`);
 
 
 /////EASY////
+
+
+//MEDIUM: Create a program that accepts a number (1-12) as input and logs to the console that number and its corresponding month. For example: if the user enters the number 3, then it should return the month “March.” Alert the user if they enter an invalid number (e.g. less than 1 or greater than 12).
+
+let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+// this is a function triggered by the onclick attribute tied to a button on our page.
+function submit (input) {
+  console.log("submitted!", this.input);
+}
+let gucci = "yo seth"
+
+this.submit(this.gucci)
+
+
+
